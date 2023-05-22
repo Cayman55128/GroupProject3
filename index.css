@@ -1,0 +1,189 @@
+
+.main_nav {
+    background-color: #9AAB7A;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .main_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main_nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .main_nav ul li a {
+    display: block;
+    background-color: 9AAB7A;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .main_nav ul li a:hover {
+    background-color: #9AAB7A;
+    color: rgb(235, 104, 104);
+  }
+  
+
+
+  .container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background-color: #9AAB7A;
+  }
+  
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #9AAB7A;
+    color: white;
+  }
+
+  nav.premiumBalls {
+    display: flex;
+    justify-content: center;
+    background-color: #9AAB7A;
+  }
+  
+  nav.premiumBalls ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav.premiumBalls ul li {
+    margin: 0 10px;
+  }
+  
+  nav.premiumBalls ul li a {
+    display: block;
+    background-color: #9AAB7A;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  nav.premiumBalls ul li a:hover {
+    color: red;
+  }
+  .navbar .premiumBalls ul li a:hover {
+    color: red;
+  }  
+
+
+  footer {
+    background-color: #9AAB7A;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer-column {
+    flex-basis: 33.33%;
+  }
+  
+  h3 {
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media li a {
+    color: white;
+    font-size: 20px;
+  }
+  
+
+  body {
+    background-color: #F1F1F1;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signin-container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .signin-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .signin-btn {
+    background-color: #9AAB7A;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .continue-apple {
+    background-color: #000000;
+  }
+  
+  .continue-google {
+    background-color: #DB4437;
+  }
+  
